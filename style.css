@@ -124,3 +124,10 @@ q{
     right: 114px;
     position: absolute;
 }
+.NotFound{
+    bottom: 1000px;
+    top: 110px;
+    left: 150px;
+    right: 150px;
+    position: absolute;
+}
