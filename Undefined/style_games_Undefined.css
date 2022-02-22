@@ -1,0 +1,104 @@
+body{
+    background-color: #0f0f22;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: whitesmoke;
+    font-size: 32px;
+    font-family: 'Chewy', cursive;
+}
+h2{
+    color: whitesmoke;
+    font-family: 'Chewy', cursive;
+}
+a{
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: 'Chewy', cursive;
+}
+li{
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: 'Chewy', cursive;
+}
+.header{
+    width: 100%;
+    display: block;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    position: absolute;
+    background-color: #1f1f4b;
+}
+.inner_header{
+    width: 80%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.logo_container{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 4px 0px;
+}
+.navigation{
+    float: right;
+    height: 50px;
+}
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 15px 19px;
+    font-size: 25px;
+}
+.navigation a:last-child{
+    padding-right: 0;
+}
+.navigation li{
+    list-style: none;
+    display: inline-block;
+}
+.navigation li a{
+    display: table;
+    vertical-align: middle;
+    height: 100%;
+    width: 100%;
+    font-size: 25px;
+    text-decoration: none;
+    position: relative;
+    font-weight: 700;
+    overflow: hidden;
+    transition: 0.7s all;
+    text-transform: uppercase;
+}
+/*
+.navigation li a:before{
+    content: '';
+    width: 107px;
+    position: absolute;
+    border-bottom: 10px solid whitesmoke;
+    bottom: 0px;
+    top: 0px;
+    left: 110px;
+    right: 0px;
+    transition: 0.7s all;
+}
+.navigation li a:hover::before{
+    left: 0;
+    width: 100px;
+}
+*/
+.games{
+    bottom: 1000px;
+    top: 150px;
+    left: 380px;
+    right: 424px;
+    position: absolute;
+}
+area{
+    display: block;
+    height: 4px;
+}
