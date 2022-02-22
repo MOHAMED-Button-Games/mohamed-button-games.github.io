@@ -25,7 +25,7 @@ else
 		link.href  = "Undefined/style_Undefined.css"
 		head.appendChild(link)
 	}
-	document.getElementById("0").href = "index_Undefined"
+	document.getElementById("0").href = "index"
 	document.getElementById("1").href = "Games_Undefined"
 	document.getElementById("2").href = "Videos_Undefined"
 	document.getElementById("3").href = "About_Undefined"
